@@ -47,7 +47,7 @@ clusters:
     instances:
       orders-db:
         instance:
-          postgresVersion: postgres-16.9
+          postgresVersion: postgres-17.5
           highAvailability:
             enabled: true
             readReplicas: 1

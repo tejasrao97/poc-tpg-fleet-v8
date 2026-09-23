@@ -41,7 +41,7 @@ clusters:
           postgresVersion: postgres-17.5
           highAvailability:
             enabled: true
-            readReplicas: 1
+            readReplicas: 3
         backup:
           enableSSL: false
   aks-tpg-poc-03:

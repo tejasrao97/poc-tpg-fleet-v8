@@ -31,7 +31,7 @@ clusters:
           postgresVersion: postgres-16.8
   aks-tpg-poc-02:
     operator:
-      version: v4.4.0
+      version: v4.5.0
     instances:
       orders-db:
         instance:

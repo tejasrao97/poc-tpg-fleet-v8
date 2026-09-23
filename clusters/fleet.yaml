@@ -21,6 +21,11 @@ clusters:
       orders-db:
         instance:
           postgresVersion: postgres-16.8
+          highAvailability:
+            enabled: true
+            readReplicas: 1
+        backup:
+          enableSSL: false
       billing-db:
         instance:
           postgresVersion: postgres-16.8
@@ -31,6 +36,11 @@ clusters:
       orders-db:
         instance:
           postgresVersion: postgres-16.8
+          highAvailability:
+            enabled: true
+            readReplicas: 1
+        backup:
+          enableSSL: false
   aks-tpg-poc-03:
     operator:
       version: v4.4.0
@@ -38,3 +48,8 @@ clusters:
       orders-db:
         instance:
           postgresVersion: postgres-16.8
+          highAvailability:
+            enabled: true
+            readReplicas: 1
+        backup:
+          enableSSL: false
